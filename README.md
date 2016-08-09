@@ -1,7 +1,7 @@
 # deepSeg
 
-[![Build Status](https://travis-ci.org/fukuball/deepSeg.svg?branch=master)](https://travis-ci.org/fukuball/deepSeg)
-[![codecov](https://codecov.io/gh/fukuball/deepSeg/branch/master/graph/badge.svg)](https://codecov.io/gh/fukuball/deepSeg)
+[![Build Status](https://travis-ci.org/ckmarkoh/deepSeg.svg?branch=master)](https://travis-ci.org/ckmarkoh/deepSeg)
+[![codecov](https://codecov.io/gh/ckmarkoh/deepSeg/branch/master/graph/badge.svg)](https://codecov.io/gh/ckmarkoh/deepSeg)
 
 A deep learning Chinese Word Segmentation toolkit
 
@@ -30,9 +30,9 @@ output:
 
 ```
 
-  中文  詞彙  網路  是  建立  在  英語  詞彙  網路  的  理論  架構  之上  所  建構  的  計算  心理  詞庫  。  
-  詞彙  依  其  同義  行為  聚集成  「  同義詞集  」  ，  
-  而  同義詞集  在  依  不同  的  語義  關係  彼此  連接  成為  一  個  複雜  的  詞彙  網路  。  
+  中文  詞彙  網路  是  建立  在  英語  詞彙  網路  的  理論  架構  之上  所  建構  的  計算  心理  詞庫  。
+  詞彙  依  其  同義  行為  聚集成  「  同義詞集  」  ，
+  而  同義詞集  在  依  不同  的  語義  關係  彼此  連接  成為  一  個  複雜  的  詞彙  網路  。
 
 
 ```
