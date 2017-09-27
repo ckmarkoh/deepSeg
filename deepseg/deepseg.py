@@ -3,7 +3,7 @@ import theano.tensor as T
 import theano
 import os
 import numpy as np
-from deepseg_util import read_json, get_widx
+from .deepseg_util import read_json, get_widx
 from collections import OrderedDict
 from platform import python_version
 
