@@ -5,6 +5,10 @@
 
 A deep learning Chinese Word Segmentation toolkit
 
+# Installation
+
+    pip install deepseg
+
 # Usage
 
 code example:
