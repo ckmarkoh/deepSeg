@@ -2,7 +2,7 @@
 import unittest
 import os
 import json
-import deepseg_util
+from deepseg import deepseg_util
 
 
 class DeepsegUtilTest(unittest.TestCase):
