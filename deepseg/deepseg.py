@@ -1,14 +1,16 @@
 # -*- encoding:utf-8 -*-
 import theano.tensor as T
 import theano
-import os
+from os.path import join, dirname, abspath
 import numpy as np
-from deepseg_util import read_json, get_widx
+from .deepseg_util import read_json, get_widx
 from collections import OrderedDict
 from platform import python_version
 
 
 class DeepSeg(object):
+
+    cur_dir = join(dirname(abspath(__file__)))
 
     def __init__(self):
 
@@ -24,9 +26,9 @@ class DeepSeg(object):
             [0, 0, 1, 1],
         ])
 
-        dict_path = os.path.normpath(os.path.join(os.getcwd(), "model/as_dict.json"))
+        dict_path = join(self.cur_dir, "model/as_dict.json")
         self.word_dict = read_json(dict_path)
-        model_path = os.path.normpath(os.path.join(os.getcwd(), "model/as_model.json"))
+        model_path = join(self.cur_dir, "model/as_model.json")
         model_params = read_json(model_path)
         self.network = self.__build_networks(model_params)
 

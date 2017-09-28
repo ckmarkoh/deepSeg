@@ -5,12 +5,16 @@
 
 A deep learning Chinese Word Segmentation toolkit
 
+# Installation
+
+    pip install deepseg
+
 # Usage
 
 code example:
 
 ```
-# -*- encoding:utf-8 -*-
+# -*- coding:utf-8 -*-
 from deepseg import DeepSeg
 
 
